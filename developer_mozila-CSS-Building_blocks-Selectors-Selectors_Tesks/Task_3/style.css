@@ -1,0 +1,19 @@
+.container a:link{
+    color: orange;
+}
+
+.container a:visited{
+    color: green
+}
+
+.container a:hover{
+    text-decoration: none;
+}
+
+.container p:first-child{
+    font-size: 150%;
+}
+
+.container p:first-child::first-line{
+    color: red;
+}
